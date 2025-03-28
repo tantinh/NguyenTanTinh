@@ -33,8 +33,7 @@ import '@ionic/react/css/palettes/dark.system.css';
 import './theme/variables.css';
 // import Login from './pages/Login';
 import Register from './pages/Register';
-import ConvertTemp from './pages/ConvertTemp';
-
+import TimeLocal from './pages/TimeLocal';
 setupIonicReact();
 
 const App: React.FC = () => (
@@ -42,7 +41,7 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/">
-          <ConvertTemp/>
+          <TimeLocal/>
         </Route>
         <Route component={Register} path="/register" exact >
 
